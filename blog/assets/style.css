@@ -1,0 +1,159 @@
+body{
+    background-color: #0f0535;
+}
+
+body *{
+    font-family: 'Calibri', sans-serif;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 0;
+    margin: 0;
+}
+
+a, a:hover, a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+input[type="text"], input[type="password"], input[type="submit"], button[type="submit"], textarea{
+    color: black !important;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+div.wrapper h1{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 2.4em;
+}
+
+.LOGO{
+    padding-top: 15px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0;
+}
+
+nav{
+    justify-self: end;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1.4em;
+}
+
+nav button, nav button[type="submit"]{
+    background: none;
+    color: #fff !important;
+    cursor: pointer;
+    border: 0;
+    font-size: 1em;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.article{
+    padding: 10px;
+    border: 1px solid #00dba0;;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.article h2{
+    font-size: 1.4em;
+}
+
+.article-detail .article{
+    padding: 0px;
+}
+
+.article-detail .article img{
+    max-width: 100%;
+
+}
+
+.article-detail .article h2{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 2em;
+}
+
+.article-detail .article p{
+    text-align: center;
+}
+
+.article .author{
+    padding: 10px;
+    background-color: #00dba0;;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    color: #0f0535;
+}
+
+.site-form{
+    margin-top: 60px;
+    border: 1px solid #00dba0;
+    padding: 20px;
+}
+
+.site-form input, .site-form textarea{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px;
+}
+
+.add-article{
+    border: 1px solid #00dba0;
+    padding: 10px;
+    border-radius: 4px;
+    /* color: #00dba0 !important; */
+}
+
+.helptext, .helptext ul{
+    margin: 0 auto 20px;
+    color:#bbb;
+    font-size: 1em;
+    display: block;
+}
+
+.helptext ul li{
+    color:#bbb;
+}
+
+.errorlist li{
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #ff5722;
+    color: #ff5722;
+    margin: 10px 0;
+}
+
+.errorlist{
+    padding: 0;
+}
+
+.site-form input[type="submit"]{
+    background: #00dba0;
+    border: 0;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    margin: 10px 0;
+}
+
